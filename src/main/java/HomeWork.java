@@ -1,6 +1,7 @@
 public class HomeWork {
 
     public static void main(String[] args){
+        // два кота
         Cat[] cats = {
                 new Cat("Пушок", 100),
                 new Cat("Дымок", 100),
@@ -12,7 +13,7 @@ public class HomeWork {
         for (Cat cat : cats) {
             System.out.println(cat);
             cat.eat(bowl);
-          
+
 
         }
 
