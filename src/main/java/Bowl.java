@@ -9,7 +9,7 @@ public class Bowl {
 
     public boolean decreaseFood(int amount) {
         this.foodAmount -= amount;
-        //public boolean decreaseFood ( int amount){
+
         if (foodAmount < amount) {
             System.out.printf("корм уменьшился на %d, теперь его %d грамм\n", amount, foodAmount);
             return false;
